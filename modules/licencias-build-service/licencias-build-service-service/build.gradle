@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:licencias-build-service:licencias-build-service-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+buildService {
+	apiDir = "../licencias-build-service-api/src/main/java"
+}
+
+group = "licencias.build.service"

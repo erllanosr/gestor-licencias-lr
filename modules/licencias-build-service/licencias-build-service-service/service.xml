@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.3.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_3_0.dtd">
+
+<service-builder dependency-injector="ds"
+	package-path="licencias.build.service">
+	<namespace>Licencias</namespace>
+	<entity local-service="true" name="Licencias"
+		remote-service="true" uuid="true" table="licencias">
+		<column name="licenciasId" primary="true" type="long" />
+		<column name="nombreLicencia" type="String" />
+		<column name="descripcionLicencia" type="String" />
+		<column name="versionLicencia" type="String" />
+		<column name="userId" type="long" />
+	</entity>
+	<reference entity="com.liferay.portal.kernel.model.User"
+		package-path="com.liferay.portal.kernel.model" local-column="userId"
+		foreign-column="userId" />
+</service-builder>

@@ -1,0 +1,4 @@
+Bundle-Name: form-agregar-portlet
+Bundle-SymbolicName: form.agregar.portlet
+Bundle-Version: 1.0.0
+Export-Package: form.agregar.portlet.constants

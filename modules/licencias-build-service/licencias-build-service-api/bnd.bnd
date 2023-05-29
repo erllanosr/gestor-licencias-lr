@@ -1,0 +1,10 @@
+Bundle-Name: licencias-build-service-api
+Bundle-SymbolicName: licencias.build.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	licencias.build.service.exception,\
+	licencias.build.service.model,\
+	licencias.build.service.service,\
+	licencias.build.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../licencias-build-service-service/service.xml

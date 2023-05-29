@@ -1,0 +1,4 @@
+Bundle-Name: acciones-crud-portlet
+Bundle-SymbolicName: acciones.crud.portlet
+Bundle-Version: 1.0.0
+Export-Package: acciones.crud.portlet.constants

@@ -1,0 +1,1 @@
+create index IX_A3F2DC7 on licencias (uuid_[$COLUMN_LENGTH:75$]);

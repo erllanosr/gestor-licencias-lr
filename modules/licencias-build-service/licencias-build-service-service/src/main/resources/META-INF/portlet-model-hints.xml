@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="licencias.build.service.model.Licencias">
+		<field name="uuid" type="String" />
+		<field name="licenciasId" type="long" />
+		<field name="nombreLicencia" type="String" />
+		<field name="descripcionLicencia" type="String" />
+		<field name="versionLicencia" type="String" />
+		<field name="userId" type="long" />
+	</model>
+</model-hints>
